@@ -1,0 +1,13 @@
+name: "DABL"
+output_dir: "."
+navbar:
+  title: ""
+  left:
+    - text: "mApLe"
+      href: mApLe.html
+    - text: "About"
+      href: index.html
+output:
+  html_document:
+    theme: flatly
+    css: style.css

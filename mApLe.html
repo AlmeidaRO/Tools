@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -84,7 +85,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -245,18 +245,6 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
@@ -317,8 +305,7 @@ $(document).ready(function () {
 <li>Memory RAM: 8GB or higher</li>
 <li>MultiCore processor <br></li>
 </ul>
-<p>Download the file <a href="https://drive.google.com/open?id=1xZG2EPV2IkBLWOlBoiRkauXaUlJGvS24">mApLe.tar.xz</a> and uncompress in /home/USER</p>
-<p>Follow the instructions in README.txt</p>
+<p>Download: <br> <a href="https://drive.google.com/open?id=1xZG2EPV2IkBLWOlBoiRkauXaUlJGvS24">mApLe.tar.xz</a> - Uncompress in /home/USER <br> <a href="https://drive.google.com/open?id=1B8b9sIP_4LHQadQw3MA7Cv9AMmDiUUHj">mApLe - Reference Manual</a> - How to use mApLe <br> <a href="https://drive.google.com/open?id=1ggLEkt0HZdw580qwOWGmOfR9fd-fXi6C">Raw Data</a> - Data used to create the models <br> <a href="https://drive.google.com/open?id=1zzsYWDO0r6Dl4qFu77T_wD1nZ7P40lJM">Attribute Dataset</a> - Dataset used to training, test and validation <br> <a href="https://drive.google.com/open?id=1SjdBV8_WqiP5hA3fe500N4oIc3Enu5LT">mApLe-test</a> - Dataset used in mApLe and DeepEC</p>
 <p><br> <br></p>
 </div>
 <div id="about-mapple" class="section level3">
@@ -345,6 +332,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

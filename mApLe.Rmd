@@ -15,9 +15,17 @@ To use mAppLe tool, you will need:
 - MultiCore processor
 <br>
 
-Download the file [mApLe.tar.xz](https://drive.google.com/open?id=1xZG2EPV2IkBLWOlBoiRkauXaUlJGvS24) and uncompress in /home/USER
-
-Follow the instructions in README.txt
+Download:
+<br>
+[mApLe.tar.xz](https://drive.google.com/open?id=1xZG2EPV2IkBLWOlBoiRkauXaUlJGvS24) - Uncompress in /home/USER
+<br>
+[mApLe - Reference Manual](https://drive.google.com/open?id=1B8b9sIP_4LHQadQw3MA7Cv9AMmDiUUHj) - How to use mApLe
+<br>
+[Raw Data](https://drive.google.com/open?id=1ggLEkt0HZdw580qwOWGmOfR9fd-fXi6C) - Data used to create the models
+<br>
+[Attribute Dataset](https://drive.google.com/open?id=1zzsYWDO0r6Dl4qFu77T_wD1nZ7P40lJM) - Dataset used to training, test and validation
+<br>
+[mApLe-test](https://drive.google.com/open?id=1SjdBV8_WqiP5hA3fe500N4oIc3Enu5LT) - Dataset used in mApLe and DeepEC
 
 <br>
 <br>
